@@ -13,16 +13,16 @@ object frmPrincipal: TfrmPrincipal
   WindowState = wsMaximized
   TextHeight = 30
   object btnExemplo01: TButton
-    Left = 24
-    Top = 17
+    Left = 8
+    Top = 73
     Width = 150
-    Height = 49
+    Height = 33
     Caption = 'Exemplo01'
     TabOrder = 0
     OnClick = btnExemplo01Click
   end
   object btnAtividade01: TButton
-    Left = 256
+    Left = 8
     Top = 25
     Width = 150
     Height = 33
@@ -31,20 +31,20 @@ object frmPrincipal: TfrmPrincipal
     OnClick = btnAtividade01Click
   end
   object btn_exemplo02: TButton
-    Left = 24
-    Top = 89
+    Left = 8
+    Top = 169
     Width = 150
-    Height = 49
-    Caption = 'Exemplo02'
+    Height = 33
+    Caption = 'Exemplo03'
     TabOrder = 2
     OnClick = btn_exemplo02Click
   end
   object btnAtividade03: TButton
-    Left = 240
-    Top = 89
-    Width = 185
-    Height = 49
-    Caption = 'Exemplo03'
+    Left = 8
+    Top = 121
+    Width = 150
+    Height = 33
+    Caption = 'Exemplo02'
     TabOrder = 3
     OnClick = btnAtividade03Click
   end
