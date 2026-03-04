@@ -2,8 +2,8 @@ object frm_exemplo03: Tfrm_exemplo03
   Left = 0
   Top = 0
   Caption = 'UExemplo03'
-  ClientHeight = 244
-  ClientWidth = 610
+  ClientHeight = 247
+  ClientWidth = 560
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,7 +13,7 @@ object frm_exemplo03: Tfrm_exemplo03
   TextHeight = 15
   object Button6: TButton
     Left = 200
-    Top = 88
+    Top = 111
     Width = 75
     Height = 25
     Caption = '6'
@@ -22,7 +22,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button7: TButton
     Left = 8
-    Top = 48
+    Top = 79
     Width = 75
     Height = 25
     Caption = '7'
@@ -31,7 +31,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button1: TButton
     Left = 8
-    Top = 128
+    Top = 144
     Width = 75
     Height = 25
     Caption = '1'
@@ -40,7 +40,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button9: TButton
     Left = 200
-    Top = 48
+    Top = 79
     Width = 75
     Height = 25
     Caption = '9'
@@ -49,7 +49,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button3: TButton
     Left = 200
-    Top = 128
+    Top = 144
     Width = 75
     Height = 25
     Caption = '3'
@@ -58,7 +58,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button2: TButton
     Left = 104
-    Top = 128
+    Top = 144
     Width = 75
     Height = 25
     Caption = '2'
@@ -67,7 +67,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button8: TButton
     Left = 104
-    Top = 48
+    Top = 79
     Width = 75
     Height = 25
     Caption = '8'
@@ -76,7 +76,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button0: TButton
     Left = 104
-    Top = 168
+    Top = 177
     Width = 75
     Height = 25
     Caption = '0'
@@ -85,7 +85,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button4: TButton
     Left = 8
-    Top = 88
+    Top = 111
     Width = 75
     Height = 25
     Caption = '4'
@@ -94,7 +94,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object Button5: TButton
     Left = 104
-    Top = 88
+    Top = 111
     Width = 75
     Height = 25
     Caption = '5'
@@ -103,7 +103,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnMutiplicacao: TButton
     Left = 296
-    Top = 128
+    Top = 144
     Width = 75
     Height = 25
     Caption = 'X'
@@ -112,7 +112,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnDivisao: TButton
     Left = 296
-    Top = 168
+    Top = 177
     Width = 75
     Height = 25
     Caption = '/'
@@ -121,7 +121,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnAdicao: TButton
     Left = 296
-    Top = 48
+    Top = 79
     Width = 75
     Height = 25
     Caption = '+'
@@ -130,7 +130,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnSubtracao: TButton
     Left = 296
-    Top = 88
+    Top = 111
     Width = 75
     Height = 25
     Caption = '-'
@@ -139,7 +139,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object ButtonVg: TButton
     Left = 8
-    Top = 168
+    Top = 177
     Width = 75
     Height = 25
     Caption = ','
@@ -148,7 +148,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnResultado: TButton
     Left = 200
-    Top = 168
+    Top = 177
     Width = 75
     Height = 25
     Caption = '='
@@ -157,7 +157,7 @@ object frm_exemplo03: Tfrm_exemplo03
   end
   object BtnLimpar: TButton
     Left = 104
-    Top = 208
+    Top = 213
     Width = 171
     Height = 25
     Caption = 'Limpar'
@@ -168,14 +168,14 @@ object frm_exemplo03: Tfrm_exemplo03
     Left = 8
     Top = 8
     Width = 363
-    Height = 26
+    Height = 65
     TabOrder = 17
   end
   object memHistorico: TMemo
     Left = 392
     Top = 8
-    Width = 209
-    Height = 225
+    Width = 161
+    Height = 230
     TabOrder = 18
   end
 end
