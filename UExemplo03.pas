@@ -113,7 +113,6 @@ begin
 end;
           {Operação Resultado}
 
-          //Botão Resultado//
 procedure Tfrm_exemplo03.BtnResultadoClick(Sender: TObject);
 var
   valor2, resultado: double;
