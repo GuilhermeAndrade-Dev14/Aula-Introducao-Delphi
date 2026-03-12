@@ -143,6 +143,10 @@
             <Form>frm_exemplo03</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UAtividade26.pas">
+            <Form>frmAtividade26</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

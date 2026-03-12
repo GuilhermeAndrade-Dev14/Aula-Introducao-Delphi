@@ -48,4 +48,13 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 3
     OnClick = btnAtividade03Click
   end
+  object Button26: TButton
+    Left = 8
+    Top = 208
+    Width = 150
+    Height = 33
+    Caption = 'Exercicio26'
+    TabOrder = 4
+    OnClick = Button26Click
+  end
 end
