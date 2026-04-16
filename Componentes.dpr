@@ -9,7 +9,8 @@ uses
   UExemplo03 in 'UExemplo03.pas' {frm_exemplo03},
   UAtividade26 in 'UAtividade26.pas' {frmAtividade26},
   UAtividade27 in 'UAtividade27.pas' {frmAtividade27},
-  UAtividade28 in 'UAtividade28.pas' {frmAtividade28};
+  UAtividade28 in 'UAtividade28.pas' {frmAtividade28},
+  UAtividade43 in 'UAtividade43.pas' {frmAtividade43};
 
 {$R *.res}
 
@@ -31,5 +32,6 @@ begin
   Application.CreateForm(TfrmAtividade27, frmAtividade27);
   Application.CreateForm(TfrmAtividade27, frmAtividade27);
   Application.CreateForm(TfrmAtividade28, frmAtividade28);
+  Application.CreateForm(TfrmAtividade43, frmAtividade43);
   Application.Run;
 end.

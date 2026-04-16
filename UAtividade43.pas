@@ -31,8 +31,8 @@ implementation
 {$R *.dfm}
 
 procedure TfrmAtividade43.btnCalcularClick(Sender: TObject);
-
-valorHora : Double,
+var
+valorHora : Double;
 horasMes: Double;
 salarioBruto :Double;
 ir :Double;
@@ -50,6 +50,35 @@ valorHora := StrToFloat(edtHora.Text);
 horasMes:= StrToFloat(edtHoras.Text);
 
 salarioBruto := valorHora * horasMes;
+
+if salarioBruto <= 1900 then
+ir:= 0
+else if salarioBruto <= 3500 then
+ir:= salarioBruto * 0.05
+else if salarioBruto <= 7500 then
+ir:= salarioBruto * 0.10
+else
+ir:= salarioBruto * 0.20;
+
+inss := salarioBruto * 0.10;
+sindicato := salarioBruto * 0.03;
+fgts := salarioBruto * 0.11;
+
+totalDesc := ir + inss + sindicato;
+salarioLiquido := salarioBruto - totalDesc;
+
+ShowMessage(
+
+    'Funcionário: ' + nome + sLineBreak +
+    'Salário Bruto: R$ ' + FloatToStrF(salarioBruto, ffFixed, 10, 2) + sLineBreak +
+    '(-) IR: R$ ' + FloatToStrF(ir, ffFixed, 10, 2) + sLineBreak +
+    '(-) INSS (10%): R$ ' + FloatToStrF(inss, ffFixed, 10, 2) + sLineBreak +
+    '(-) Sindicato (3%): R$ ' + FloatToStrF(sindicato, ffFixed, 10, 2) + sLineBreak +
+    'FGTS (11%): R$ ' + FloatToStrF(fgts, ffFixed, 10, 2) + sLineBreak +
+    'Total de descontos: R$ ' + FloatToStrF(totalDesc, ffFixed, 10, 2) + sLineBreak +
+    'Salário líquido: R$ ' + FloatToStrF(salarioLiquido, ffFixed, 10, 2)
+)
 end;
 
 end.
+
